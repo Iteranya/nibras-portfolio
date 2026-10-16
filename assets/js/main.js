@@ -142,3 +142,42 @@
 
   render();
 })();
+
+/* Galeri: foto berwarna saat diarahkan (hover), disentuh, atau difokus keyboard.
+   Di perangkat sentuh :hover bisa "nyangkut", jadi ketuk = alihkan sendiri. */
+(function () {
+  var shots = Array.prototype.slice.call(document.querySelectorAll(".shot"));
+  if (!shots.length) return;
+
+  var clearAll = function (except) {
+    shots.forEach(function (f) {
+      if (f !== except) f.classList.remove("is-color");
+    });
+  };
+
+  shots.forEach(function (fig) {
+    fig.setAttribute("tabindex", "0");
+    fig.setAttribute("aria-label", "Lihat foto berwarna");
+
+    var toggle = function () {
+      var on = fig.classList.toggle("is-color");
+      fig.setAttribute("aria-label", on ? "Kembalikan foto ke hitam-putih" : "Lihat foto berwarna");
+    };
+
+    fig.addEventListener("click", function () { clearAll(fig); toggle(); });
+
+    fig.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+        e.preventDefault();
+        clearAll(fig);
+        toggle();
+      }
+    });
+  });
+
+  // ketuk di luar galeri = kembalikan semua ke hitam-putih
+  document.addEventListener("click", function (e) {
+    if (e.target && e.target.closest && e.target.closest(".shot")) return;
+    clearAll(null);
+  });
+})();

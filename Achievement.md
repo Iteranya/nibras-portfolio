@@ -9,8 +9,8 @@
 | Nama Orangtua | Widiansyah |
 | Alamat | Casablanca Residence Apartment Jl. Pahlawan Revolusi, Pondok Bambu, Duren Sawit, Jakarta Timur |
 | Capaian Tahfidz | 30 Juz |
-| Capaian Toefl | 533 |
-| Capaian Toefl | 450 |
+| TOEFL | 533 |
+| TOAFL | 450 |
 | Organisasi | — |
 
 ---
@@ -76,7 +76,7 @@
 - **Peringkat lain:** 5 Juara 2 · 2 Juara 3 · 2 Juara 4
 - **Bidang:** Pencak Silat (Tapak Suci/IPSI), Olimpiade Akademik (Ekonomi, Sejarah, SKI, B. Indonesia, B. Inggris, Matematika, Fiqih, Akidah Akhlak, PAI), Bahasa Arab, MFQ, Tahfidz, Futsal, Tenis Meja, Sepak Bola Pantai
 - **Hafalan:** 30 Juz
-- **TOEFL:** 533 / 450 (dua baris di dokumen sumber — perlu dikonfirmasi)
+- **Bahasa:** TOEFL 533 (bahasa Inggris) · TOAFL 450 (bahasa Arab)
 
 ### Ketidaksesuaian di dokumen sumber (tidak diperbaiki)
 

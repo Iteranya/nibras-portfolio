@@ -70,8 +70,9 @@ diperbaiki tanpa konfirmasi:
    *Tingkat Nasional* oleh dokumen sumber, padahal "Kejurkab" berarti
    kejuaraan kabupaten, dan prestasi nomor 25 adalah lomba yang sama dengan
    label *Kabupaten*.
-2. **TOEFL** — dokumen sumber mencantumkan **dua** baris nilai: 533 dan 450.
-   Situs menampilkan 533; keduanya perlu dikonfirmasi mana yang berlaku.
+2. **TOEFL dan TOAFL** — dokumen sumber menulis dua baris "Capaian Toefl" (533 dan 450),
+   padahal yang kedua adalah **TOAFL** (*Test of Arabic as a Foreign Language*), tes bahasa
+   Arab yang berbeda dari TOEFL. Dikonfirmasi pemilik data; situs menampilkan keduanya.
 3. **Organisasi** — kosong di dokumen sumber.
 4. **Ejaan** — "Olympiad" / "Olympicad" / "Olimpiade" muncul bergantian;
    "Quran Hadist" dan "Sejarah Kebudayaan Islam" dipertahankan apa adanya.
